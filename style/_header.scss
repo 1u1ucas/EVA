@@ -1,0 +1,68 @@
+.header {
+  background: url(../ASSETS/header-background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  height: 700px;
+  min-height: 700px;
+  padding: var(--space-8xl, 48px) var(--space-3xl, 28px);
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.header-content {
+  display: flex;
+  max-width: 980px;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-7xl, 44px);
+}
+
+.menu {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-6xl);
+  color: var(--neutral-paper);
+}
+
+.logo {
+  width: 65px;
+  height: 24.5px;
+}
+
+.actions {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-md, 12px);
+}
+
+.title-container {
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--space-6xl, 40px);
+  color: var(--neutral-paper);
+  max-width: 50%;
+}
+
+.title-image {
+  width: 380px;
+  height: 330.5px;
+}

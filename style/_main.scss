@@ -1,0 +1,82 @@
+.main {
+  display: flex;
+  padding: var(--space-8xl, 48px) var(--space-3xl, 28px)
+    var(--space-section, 120px) var(--space-3xl, 28px);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: var(--neutral-background);
+}
+
+.container {
+  display: flex;
+  max-width: 980px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: var(--space-section, 120px);
+}
+
+.after-h {
+  display: flex;
+  align-items: center;
+  gap: var(--space-10xl, 64px);
+}
+
+.after-h-image {
+  width: 378px;
+  height: 457px;
+}
+
+.after-h-title {
+  max-width: 48%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--space-4xl, 32px);
+  color: var(--neutral-paper);
+}
+
+.games-modes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: var(--space-6xl, 40px);
+  color: var(--neutral-paper);
+  text-align: center;
+}
+
+.games-modes-selection {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--space-2xl, 24px);
+}
+
+.icon {
+  width: 60px;
+  height: 65.747px;
+}
+
+.join-battle {
+  display: flex;
+  height: 250px;
+  min-height: 150px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: var(--space-md, 12px);
+  align-self: stretch;
+  border-radius: var(--space-full, 999px);
+  background: url(../ASSETS/join-battle.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: var(--neutral-paper);
+}
+
+.btn-abs {
+  position: relative;
+  bottom: -90px;
+  left: 0px;
+}

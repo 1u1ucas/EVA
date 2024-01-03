@@ -1,0 +1,19 @@
+@media screen and (max-width: 650px) {
+  .main {
+    padding-top: 150px;
+  }
+
+  .join-battle {
+    border-radius: var(--space-10xl);
+  }
+
+  .title-content {
+    text-align: start;
+    max-width: 90%;
+  }
+
+  .after-h-title {
+    max-width: 100%;
+    align-items: flex-start;
+  }
+}

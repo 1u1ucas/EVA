@@ -1,0 +1,13 @@
+@import "_root.scss";
+
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+@import "_components.scss";
+@import "_header.scss";
+@import "_main.scss";
+@import "_responsive(960).scss";
+@import "_responsive(860).scss";
+@import "_responsive(650).scss";

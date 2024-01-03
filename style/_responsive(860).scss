@@ -1,0 +1,42 @@
+@media screen and (max-width: 860px) {
+  .header-content {
+    height: auto;
+  }
+  .title-container {
+    flex-direction: column-reverse;
+    gap: var(--space-3xl);
+  }
+
+  .title-content {
+    align-items: center;
+    max-width: 80%;
+  }
+
+  .main {
+    padding-top: var(--space-section);
+  }
+
+  .after-h {
+    flex-direction: column;
+  }
+
+  .after-h-title {
+    max-width: 80%;
+  }
+
+  .games-modes-selection {
+    flex-direction: column;
+  }
+
+  .modes {
+    width: 100%;
+  }
+  .mode-container {
+    width: 60%;
+    transform: translateY(20%);
+  }
+
+  .mode:hover .mode-container {
+    transform: translateY(-15%);
+  }
+}
